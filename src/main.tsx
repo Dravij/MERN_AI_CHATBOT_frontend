@@ -7,7 +7,8 @@ import { BrowserRouter } from "react-router-dom";
 import { AuthProvider } from "./context/AuthContext.tsx";
 import { Toaster } from "react-hot-toast";
 import axios from "axios";
-axios.defaults.baseURL = "http://localhost:5001/api/v1";
+axios.defaults.baseURL =
+  "https://mern-ai-chatbot-backend-mdcm88bav-divyansh-kumar-s-projects.vercel.app/api/v1";
 axios.defaults.withCredentials = true;
 const theme = createTheme({
   typography: {
